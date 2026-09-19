@@ -16,5 +16,7 @@ class Tile():
             self.color = "blue"
         elif table[self.x][self.y] == 3:
             self.color = "red"
+
+        
     def value(self,table,value:int):
         table[self.x][self.y] = value
